@@ -11,9 +11,9 @@ cd static/
 python3 -m http.server 9000
 ```
 
-Open page [127.0.0.1:9000](http://127.0.0.1:9000) in browser.
+Open page [http://localhost:9000/](http://localhost:9000/) in browser.
 
-(The port 9000 is important because of CORS policy set up on server).
+(The port 9000 and localhost are important because of CORS policy set up on server).
 
 # Deploy on production server
 
